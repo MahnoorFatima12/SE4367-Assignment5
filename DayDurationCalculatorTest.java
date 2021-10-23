@@ -10,5 +10,5 @@ public class DaysDurationCalculatorTest {
 	}
 @Test
 	public final void testCal2() {
-		assertNotEquals(dayz.cal(3, 4, 1, 8, 2001),dayz.cal(4, 10, 1, , 2020));
+		assertNotEquals(dayz.cal(3, 4, 1, 8, 2001),dayz.cal(4, 10, 1, 7 , 2020));
 	}
