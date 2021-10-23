@@ -16,3 +16,8 @@ public class DaysDurationCalculatorTest {
 	public final void testCal3() {
 		assertEquals(dayz.cal(3, 4, 1, 8, 2001),dayz.cal(3, 4, 1, 8, 2001));
 	}
+@Test
+	public final void testCal4() 
+	{
+		assertNotNull(dayz.cal(3, 0, 0, 0, 5));
+	}
