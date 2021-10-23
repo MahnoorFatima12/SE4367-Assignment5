@@ -21,3 +21,4 @@ public class DaysDurationCalculatorTest {
 	{
 		assertNotNull(dayz.cal(3, 0, 0, 0, 5));
 	}
+}
